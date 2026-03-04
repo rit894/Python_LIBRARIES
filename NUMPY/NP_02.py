@@ -29,5 +29,5 @@ arr3 = np.array([[1,2,3],[4,5,6]])
 print(arr3.shape)
 
 arr4 = np.array([1,2,3,4,5], ndmin=5)
-# print(arr4)
-# print(arr4.shape)
+print(arr4)
+print(arr4.shape)
