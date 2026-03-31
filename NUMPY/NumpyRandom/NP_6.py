@@ -25,3 +25,4 @@ print(x)
 sns.displot(x,kind="kde")
 plt.show()
 
+
