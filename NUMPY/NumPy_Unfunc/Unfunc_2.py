@@ -18,3 +18,11 @@ y=np.array([4,5,6,5,7,8])
 z=np.mod(x,y)
 print('this is modulus')
 print(z)
+x= np.array([10,1,2,3,45,5])
+y = np.array([7,8,9,45,6,3])
+z= np.divmod(x,y)
+print()
+print(z)
+
+# similarly try for aboslout command i.e. np.aboslute(arr)
+
