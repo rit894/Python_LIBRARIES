@@ -8,7 +8,7 @@ df = pd.read_csv("D:\Python_LIBRARIES\Pandas\CSVfiles\CD1.csv")
 new_df=df.fillna({"Calories":130})
 # print(new_df.to_string())
 # print(df.to_string())
-x = df["Calories"].median()
+x = df["Calories"].mean()
 df1 = df.fillna({"Calories":x})
 
 print(df1.to_string())
